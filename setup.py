@@ -26,6 +26,7 @@ setup(
       'console_scripts': [
         'astar_node = warehouse_planner.astar_node:main',
         'odom_to_tf = warehouse_planner.odom_to_tf:main',
+        'dwa_controller = warehouse_planner.dwa_controller:main',
         ],
     },
 )
